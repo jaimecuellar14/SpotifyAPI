@@ -12,7 +12,6 @@ var request = require('request'); // "Request" library
 var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
-var spotifyConfig = require('../config');
 const spotifyClientConfig = require('../config');
 
 var client_id = spotifyClientConfig.client_id; // Your client id
